@@ -2,7 +2,7 @@ package pl.edu.pwsztar.domain.dto;
 
 public class MovieCounterDto {
 
-    private final long counter;
+    private long counter;
 
     private MovieCounterDto(Builder builder) {
         counter = builder.counter;
